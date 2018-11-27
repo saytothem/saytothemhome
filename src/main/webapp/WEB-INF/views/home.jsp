@@ -2,6 +2,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ page session="false" %>
 <html>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+
+	setTimeout(function() {
+		window.location='main';
+		
+	}, 100);
+	
+
+</script>
 <head>
 	<title>Home</title>
 </head>

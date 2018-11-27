@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+     
+    <!-- <mapper namespace = "패키지명.인터페이스명">
+    	select 문장은 parameterType, resultType을 기술한다.
+    	파라미터 일반 변수명은 반드시 일치해야 한다.
+    	insert, update, delete문장은 parameterType만 기술한다.
+    	parameterType, resultType이 클래스타입인 경우 패키지명, 클래스명을 기술한다.
+    	문장의 끝에 ;를 붙이지 않는다.
+    	
+    	파라미터 값이 2개 이상일 경우 parameterType = java.util.Map으로 받는다.
+     -->
