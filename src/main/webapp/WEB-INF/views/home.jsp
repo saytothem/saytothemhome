@@ -8,7 +8,7 @@
 	setTimeout(function() {
 		window.location='main';
 		
-	}, 100);
+	}, 200);
 	
 
 </script>

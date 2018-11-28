@@ -9,10 +9,10 @@ public class FrontController extends HttpServlet {
 
 	private static final long serialVersionUID = 1L;
 	
-	@RequestMapping(value = "/main")
+	@RequestMapping(value = "main")
 	public String main(Model model) {
 		System.out.println("/main");
 		
-		return "/main";
+		return "main";
 	}
 }
